@@ -9,10 +9,18 @@ class Books
         @word_count = word_count 
 
         @@all << self
+        
 
+    def books
+
+        @@all << self 
+    end 
+
+    
+    
+    end
+    
     def 
-
-
 
 
 

@@ -13,12 +13,19 @@ class Author
 
         @@all << self 
      
-    def Authorbook
+    def AuthorBooks
        all .map(write_book) 
-        .map (author, write_book)
-    
+        .map (author, write_book) 
     
     end 
+
+    def AuthorBooks 
+        joint. AuthorBooks []
+
+    end 
+    
+    def Books
+         
     
 
     

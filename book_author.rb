@@ -4,7 +4,7 @@ class BookAuthor
         @BookAuthor = BookAuthor
         @@All = self 
 
-        
+    
 
 
 
